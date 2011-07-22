@@ -13,9 +13,9 @@ $HANDSEED
   5
 FFFF
   9
-$DIMASZ
- 40
-2.5
+$DIMADEC
+ 70
+2
   9
 $GRIDUNIT
  10
@@ -23,45 +23,45 @@ $GRIDUNIT
  20
 0.0
   9
-$DIMADEC
- 70
-2
+$DIMASZ
+ 40
+2.5
   9
 $DIMGAP
  40
 0.625
   9
-$SPLINESEGS
+$LUNITS
  70
-8
+2
   9
 $AUPREC
  70
 2
   9
-$LUNITS
+$SPLINESEGS
  70
-2
-  9
-$DIMEXO
- 40
-0.625
+8
   9
 $INSUNITS
  70
 4
   9
+$DIMEXO
+ 40
+0.625
+  9
 $DIMLUNIT
  70
 2
   9
-$DIMTXT
- 40
-2.5
-  9
 $GRIDMODE
  70
 1
+  9
+$DIMTXT
+ 40
+2.5
   9
 $LUPREC
  70
@@ -71,17 +71,17 @@ $DIMSTYLE
   2
 Standard
   9
-$PLIMMAX
- 10
-420.0
- 20
-594.0
-  9
 $PLIMMIN
  10
 0.0
  20
 0.0
+  9
+$PLIMMAX
+ 10
+420.0
+ 20
+594.0
   9
 $DIMEXE
  40
@@ -6703,11 +6703,11 @@ outline
   6
 ByLayer
   2
-din a3
+innen A 5x
  10
-500.0
+220.0
  20
-0.0
+70.0
  30
 0.0
  44
@@ -6731,11 +6731,11 @@ outline
   6
 ByLayer
   2
-aussen A 4x
+innen A 5x
  10
-720.0
+220.0
  20
-70.0
+140.0
  30
 0.0
  44
@@ -6759,11 +6759,11 @@ outline
   6
 ByLayer
   2
-aussen A 4x
+innen B 5x
  10
-720.0
+40.0
  20
-140.0
+210.0
  30
 0.0
  44
@@ -6787,11 +6787,11 @@ outline
   6
 ByLayer
   2
-aussen B 4x
+innen B 5x
  10
-540.0
+40.0
  20
-210.0
+280.0
  30
 0.0
  44
@@ -6802,146 +6802,6 @@ aussen B 4x
 INSERT
   5
 115
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-aussen B 4x
- 10
-540.0
- 20
-280.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-116
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-innen A 5x
- 10
-220.0
- 20
-70.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-117
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-innen A 5x
- 10
-220.0
- 20
-140.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-118
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-innen B 5x
- 10
-40.0
- 20
-210.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-119
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-innen B 5x
- 10
-40.0
- 20
-280.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-11A
 100
 AcDbEntity
 100
@@ -6969,35 +6829,7 @@ innen C 2x
   0
 INSERT
   5
-11B
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-aussen C 2x
- 10
-820.0
- 20
-280.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-11C
+116
 100
 AcDbEntity
 100
@@ -7025,207 +6857,7 @@ innen C 2x
   0
 INSERT
   5
-11D
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-din a3
- 10
-0.0
- 20
-300.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-11E
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-innen A 5x
- 10
-220.0
- 20
-370.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-11F
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-innen A 5x
- 10
-220.0
- 20
-440.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-120
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-innen B 5x
- 10
-40.0
- 20
-510.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-121
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-innen B 5x
- 10
-40.0
- 20
-580.0
- 30
-0.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-122
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-innen A 5x
- 10
-259.9999999999998863
- 20
-520.0
- 30
-0.0
- 50
-90.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-123
-100
-AcDbEntity
-100
-AcDbBlockReference
-  8
-outline
- 62
-256
-370
--1
-  6
-ByLayer
-  2
-innen B 5x
- 10
-330.0
- 20
-340.0
- 30
-0.0
- 50
-90.0
- 44
-1.0
- 45
-1.0
-  0
-INSERT
-  5
-124
+117
 100
 AcDbEntity
 100
@@ -7253,7 +6885,343 @@ din a3
   0
 INSERT
   5
-125
+118
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+aussen A 4x
+ 10
+1220.0
+ 20
+70.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+119
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+aussen A 4x
+ 10
+1220.0
+ 20
+140.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+11A
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+aussen B 4x
+ 10
+1040.0
+ 20
+210.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+11B
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+aussen B 4x
+ 10
+1040.0
+ 20
+280.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+11C
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+aussen C 2x
+ 10
+1320.0
+ 20
+280.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+11D
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+din a3
+ 10
+1000.0
+ 20
+300.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+11E
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+aussen A 4x
+ 10
+1220.0
+ 20
+370.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+11F
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+aussen A 4x
+ 10
+1220.0
+ 20
+440.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+120
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+aussen B 4x
+ 10
+1040.0
+ 20
+510.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+121
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+aussen B 4x
+ 10
+1040.0
+ 20
+580.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+122
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+aussen C 2x
+ 10
+1320.0
+ 20
+580.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+123
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+din a3
+ 10
+1500.0
+ 20
+0.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+124
 100
 AcDbEntity
 100
@@ -7269,11 +7237,41 @@ ByLayer
   2
 kasten C 2x
  10
-1340.0
+1840.0
  20
 210.0
  30
 0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+125
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+kasten A 4x
+ 10
+1760.0
+ 20
+220.0
+ 30
+0.0
+ 50
+90.0
  44
 1.0
  45
@@ -7297,13 +7295,11 @@ ByLayer
   2
 kasten A 4x
  10
-1260.0
+1720.0
  20
-220.0
+80.0
  30
 0.0
- 50
-90.0
  44
 1.0
  45
@@ -7325,11 +7321,11 @@ outline
   6
 ByLayer
   2
-kasten A 4x
+kasten B 4x
  10
-1220.0
+1540.0
  20
-80.0
+160.0
  30
 0.0
  44
@@ -7355,9 +7351,9 @@ ByLayer
   2
 kasten B 4x
  10
-1040.0
+1540.0
  20
-160.0
+240.0
  30
 0.0
  44
@@ -7381,13 +7377,355 @@ outline
   6
 ByLayer
   2
-kasten B 4x
+din a3
  10
-1040.0
+1500.0
  20
-240.0
+300.0
  30
 0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+12A
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+kasten C 2x
+ 10
+1840.0
+ 20
+510.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+12B
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+kasten A 4x
+ 10
+1760.0
+ 20
+520.0
+ 30
+0.0
+ 50
+90.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+12C
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+kasten A 4x
+ 10
+1720.0
+ 20
+380.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+12D
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+kasten B 4x
+ 10
+1540.0
+ 20
+460.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+12E
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+kasten B 4x
+ 10
+1540.0
+ 20
+540.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+12F
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+din a3
+ 10
+500.0
+ 20
+0.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+130
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+innen A 5x
+ 10
+720.0
+ 20
+70.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+131
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+innen A 5x
+ 10
+720.0
+ 20
+140.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+132
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+innen B 5x
+ 10
+540.0
+ 20
+210.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+133
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+innen B 5x
+ 10
+540.0
+ 20
+280.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+134
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+innen A 5x
+ 10
+759.9999999999998863
+ 20
+220.0
+ 30
+0.0
+ 50
+90.0
+ 44
+1.0
+ 45
+1.0
+  0
+INSERT
+  5
+135
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+outline
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+innen B 5x
+ 10
+830.0
+ 20
+40.0
+ 30
+0.0
+ 50
+90.0
  44
 1.0
  45
@@ -7431,7 +7769,7 @@ E
   3
 AcDbVariableDictionary
 350
-12A
+136
   0
 DICTIONARY
   5
@@ -7895,7 +8233,7 @@ Layout2
   0
 DICTIONARY
   5
-12A
+136
 100
 AcDbDictionary
 281
@@ -7903,15 +8241,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-12C
+138
   3
 HIDETEXT
 350
-12B
+137
   0
 DICTIONARYVAR
   5
-12B
+137
 100
 DictionaryVariables
 280
@@ -7921,7 +8259,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-12C
+138
 100
 DictionaryVariables
 280
